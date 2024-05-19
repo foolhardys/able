@@ -1,0 +1,4 @@
+.container1{
+    overscroll-behavior-y: contain;
+    scroll-snap-type: y mandatory;
+}
