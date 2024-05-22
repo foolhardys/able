@@ -4,11 +4,6 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import acc from "../assets/acc.png";
-import amazon from "../assets/amazon.png";
-import fb from "../assets/fb.png";
-import google from "../assets/google.png";
-
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 import "../styles/Card.css";
 import BasicModal from "./Modal";

@@ -3,7 +3,6 @@ import toast from "react-hot-toast";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-
   const tempuser = localStorage.getItem("user");
   const user = JSON.parse(tempuser);
 

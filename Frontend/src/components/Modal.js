@@ -17,8 +17,8 @@ export default function BasicModal({ internship }) {
   const handleClose = () => setOpen(false);
 
   return (
-    <div className="">
-      <button onClick={handleOpen}>Apply Now</button>
+    <div >
+      <button onClick={handleOpen}>Details</button>
       <Modal
         open={open}
         onClose={handleClose}

@@ -1,5 +1,5 @@
 import React from "react";
-import intern from './d.png'
+import intern from "../assets/d.png";
 
 const Community = () => {
   return (
@@ -11,22 +11,32 @@ const Community = () => {
           </h2>
 
           <figure>
-            <img
-              src={intern}
-              alt="Shoes"
-              className="w-96"
-            />
+            <img src={intern} alt="Shoes" className="w-96" />
           </figure>
           <div className="flex">
-          <img src="https://cdn.icon-icons.com/icons2/843/PNG/512/Whatsapp_icon-icons.com_67044.png" alt=""className="w-8 "/>
-          <p className="px-2 py-1"><button>Whatsapp Community</button></p>
+            <img
+              src="https://cdn.icon-icons.com/icons2/843/PNG/512/Whatsapp_icon-icons.com_67044.png"
+              alt=""
+              className="w-8 "
+            />
+            <p className="px-2 py-1">
+              <button>Whatsapp Community</button>
+            </p>
           </div>
           <div className="flex">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4KHspeICALJLtrG719HTrRoP9oaGUbreuXFKkLQiAng&s" alt="" className="w-8 "/>
-          <p className="px-2 py-1"><button>Telegram Community</button></p>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4KHspeICALJLtrG719HTrRoP9oaGUbreuXFKkLQiAng&s"
+              alt=""
+              className="w-8 "
+            />
+            <p className="px-2 py-1">
+              <button>Telegram Community</button>
+            </p>
           </div>
           <div className="card-actions justify-end">
-            <div className="badge badge-outline p-4"><button>Know More</button></div>
+            <div className="badge badge-outline p-4">
+              <button>Know More</button>
+            </div>
           </div>
         </div>
       </div>
@@ -37,18 +47,16 @@ const Community = () => {
           </h2>
 
           <figure>
-            <img
-              src={intern}
-              alt="Shoes"
-              className="w-96"
-            />
+            <img src={intern} alt="Shoes" className="w-96" />
           </figure>
 
           <div className="card-actions justify-center">
             <button className="mx-1 btn bg-black text-white">Apply Now</button>
           </div>
           <div className="card-actions justify-end">
-            <div className="badge badge-outline p-4"><button>Know More</button></div>
+            <div className="badge badge-outline p-4">
+              <button>Know More</button>
+            </div>
           </div>
         </div>
       </div>

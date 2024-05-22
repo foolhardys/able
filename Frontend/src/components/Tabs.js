@@ -46,8 +46,8 @@ export default function BasicTabs({ internship }) {
   };
 
   return (
-    <Box>
-      <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+    <Box className=" md:w-full w-[400px] flex items-center justify-center flex-col">
+      <Box className="md:w-full w-[500px]" sx={{ borderBottom: 1, borderColor: "divider" }}>
         <Tabs
           value={value}
           onChange={handleChange}
@@ -58,7 +58,7 @@ export default function BasicTabs({ internship }) {
           <Tab label="About The Company" {...a11yProps(2)} />
         </Tabs>
       </Box>{" "}
-      <CustomTabPanel value={value} index={0}>
+      <CustomTabPanel className="w-full" value={value} index={0}>
         <ul className="m-4">
           <li className="pb-5 text-black">
             <a href="/">
@@ -105,8 +105,8 @@ export default function BasicTabs({ internship }) {
           </li>
         </ul>
       </CustomTabPanel>
-      <CustomTabPanel value={value} index={2}>
-        <p className="text-black">{internship?.description}</p>
+      <CustomTabPanel value={value} index={2} className="md:w-full w-[400px]">
+        <p className="text-black p-3">{internship?.description}</p>
       </CustomTabPanel>
     </Box>
   );

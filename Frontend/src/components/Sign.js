@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Cell from "./cell.jpg";
+import Cell from "../assets/cell.jpg";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import toast from "react-hot-toast";
