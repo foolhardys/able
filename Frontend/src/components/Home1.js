@@ -1,6 +1,5 @@
 import React from "react";
 import Home from "./Home.js";
-import Footer from "./Footer.js";
 import Testi from "./Testi.js";
 import Slogan from "./Slogan.js";
 import Company from "./Company.js";
@@ -14,7 +13,7 @@ import Subscribe from "./Subscribe.js";
 
 const Home_1 = () => {
   return (
-    <div className="">
+    <div>
       <Heading1 head="ABLING YOU TO ENDLESS POSSIBILITIES" />
       <Home />
       <Stats />
@@ -29,7 +28,6 @@ const Home_1 = () => {
       <Faq />
       <Heading head="SUBSCRIBE" />
       <Subscribe />
-      <Footer />
     </div>
   );
 };

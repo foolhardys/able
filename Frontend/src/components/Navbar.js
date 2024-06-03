@@ -51,6 +51,13 @@ const Navbar = () => {
             <li>
               <Link to="/contact">Contact us</Link>
             </li>
+            {user?.role === "admin" ? (
+              <li>
+                <Link to="/admin">Admin</Link>
+              </li>
+            ) : (
+              <></>
+            )}
           </ul>
         </div>
         <div>
@@ -81,6 +88,13 @@ const Navbar = () => {
           <li>
             <Link to="/contact">Contact us</Link>
           </li>
+          {user?.role === "admin" ? (
+            <li>
+              <Link to="/admin">Admin</Link>
+            </li>
+          ) : (
+            <></>
+          )}
         </ul>
       </div>
       {user ? (
